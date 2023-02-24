@@ -1,0 +1,114 @@
+*{
+    font-size: 28px;
+    font-family: 'Gugi', sans-serif;
+}
+.cabecalho-top{
+    display: flex;
+    /*background-color: #368fd3;*/
+    height: 150px;
+    align-items: center;
+    justify-content: center;
+}
+.menu{
+    font-family: 'Gugi', sans-serif;
+    display: flex;
+    list-style: none;
+    text-transform: uppercase;
+    justify-content: center;
+   
+    
+}
+.menu .menu-item{
+    margin-left:10px ;
+    text-decoration: none;
+}
+.menu .menu-item .menu-item-link{
+    text-decoration: none;
+    color: black;
+}
+.titulo{
+    text-align: center;
+}
+
+.container-imagemPrincipal{
+display: flex;
+justify-content: center;
+
+
+
+
+}
+.container-imagemPrincipal .imagem-principal-link {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    max-width: 35%;
+    max-height: 35%;
+
+}
+
+.container-imagemPrincipal .imagem-principal-link .imagem-principal-centralizada{
+    
+    width: auto;
+    height: auto;
+    border-width: 10px;
+    border-style:solid;
+    border-color: #368fd3;
+    border-radius: 50%;
+    max-width:100%;
+    max-height:100%;
+
+}
+.container-imagemPrincipal :hover{
+    transition-delay: 0.5ms;
+    transition-duration: 1s; 
+    max-width: 40%;
+    max-height: 40%;
+
+}
+
+.sessaoServicos{
+    display: flex;
+    justify-content: space-around;
+}
+.sessaoServicos .servicos{
+    max-width: 30%;
+    border-style: solid;
+    border-color: #368fd3;
+    border-radius: 1px;
+    text-align: center;
+
+}
+.sessaoServicos .servicos .listaServicos {
+    list-style: none;
+}
+.sessaoServicos .servicos .listaServicos .listaServicos-item {
+    text-align: left;
+}
+.sessaoServicos .contato{
+    max-width: 30%;
+    border-style: solid;
+    border-color: #368fd3;
+    border-radius: 1px;
+    padding: 5px, 5px, 5px, 5px;
+ 
+}
+.sessaoServicos .valores{
+    max-width: 30%;
+    border-style: solid;
+    border-color: #368fd3;
+    border-radius: 1px;
+
+}
+.containerFooter{
+    display: flex;
+    justify-content: center;
+
+}
+h3{
+    text-align: center;
+}
+.containerFooter .containerFooter-quemSomos{
+    margin: 20px;
+    padding: 10px;
+}
