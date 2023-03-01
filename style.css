@@ -1,6 +1,11 @@
 body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
     font-family: 'Gugi', sans-serif;
     font-size: 18px;
+    
 }
 
 .cabecalho-top{
@@ -131,6 +136,9 @@ flex-direction: column;
     flex-direction: column;
     text-align: center;
     align-items: center;
+    text-align: left;
+    max-width: 80%;
+
 
 }
 .container-textoDeEfeito .tituloComIcone{
@@ -146,9 +154,11 @@ flex-direction: column;
     width: 80%;
     height: 150px;
     justify-content: center;
-    flex-direction: column;
+    align-items: center;
+   
 
 }
+
 h1{
     text-align: center;
 }
