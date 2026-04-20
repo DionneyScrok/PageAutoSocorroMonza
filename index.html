@@ -21,93 +21,99 @@
 
 <body>
 
-    <header>
-        <div class="cabecalho-top">
-            <img class="cabecalho-top-image" src="./images/logosemfundoasmonza.png">
-        </div>
-
-        <nav>
-            <ul class="menu">
-                <li class="menu-item"><a class="menu-item-link" href="#servicos">Serviços</a>|</li>
-                <li class="menu-item"><a class="menu-item-link" href="#precos">Valores</a>|</li>
-                <li class="menu-item">
-                    <a id="btn-whatsapp" class="menu-item-link"
-                        href="https://api.whatsapp.com/send?phone=5541999836756&text=Precisando%20de%20ajuda">Contato</a>
-                </li>
-            </ul>
-        </nav>
-
-        <h1 class="titulo"> Auto Socorro Monza | Serviço de guincho</h1>
-
-    </header>
-
-    <section class="container-imagemPrincipal">
-
-        <a id="btn-whatsapp"
-            href="https://api.whatsapp.com/send?phone=5541999836756"
-            class="imagem-principal-link">
-            <img class="imagem-principal-centralizada"
-                src="./images/23509504_1336030319858179_3592194081927757667_o.jpg" />
-        </a>
-
-        <a id="btn-whatsapp" href="https://api.whatsapp.com/send?phone=5541999836756"
-            class="flash btnChamar">Chamar Agora!</a>
-
-    </section>
-
-    <div class="container-textoDeEfeito">
-
-        <div class="tituloComIcone">
-            <img src="./images/iconsirene.jpg" width="50" />
-            <h1>Guincho em Colombo 24H</h1>
-            <img src="./images/iconsirene.jpg" width="50" />
-        </div>
-
-        <img src="./images/banner/asmonza24h.png">
-
-        <a id="btn-whatsapp" href="https://api.whatsapp.com/send?phone=5541999836756"
-            class="flash btnChamar">Chamar Agora!</a>
-
-        <h1>Guincho em Curitiba e região metropolitana 24H</h1>
-
-        <p>Precisa de um guincho em Colombo, Curitiba ou região metropolitana? Atendimento rápido 24 horas.</p>
-
-        <a id="btn-whatsapp" href="https://api.whatsapp.com/send?phone=5541999836756"
-            class="flash btnChamar">Chamar Agora!</a>
-
-        <img style="width: 100%;" src="./images/doisselosLogo.png" />
-
+<header>
+    <div class="cabecalho-top">
+        <img class="cabecalho-top-image" src="./images/logosemfundoasmonza.png">
     </div>
 
-    <!-- BOTÃO DE LIGAÇÃO -->
-    <div style="text-align:center; margin:30px;">
-        <a id="btn-ligar" href="tel:41999836756"
-            style="background:#22c55e;color:white;padding:15px 25px;border-radius:10px;font-size:18px;text-decoration:none;">
-            📞 Ligar Agora
-        </a>
+    <nav>
+        <ul class="menu">
+            <li><a href="#servicos">Serviços</a>|</li>
+            <li><a href="#precos">Valores</a>|</li>
+            <li>
+                <a class="btn-whatsapp"
+                   href="https://api.whatsapp.com/send?phone=5541999836756&text=Precisando%20de%20ajuda">
+                   Contato
+                </a>
+            </li>
+        </ul>
+    </nav>
+
+    <h1 class="titulo">Auto Socorro Monza | Serviço de guincho</h1>
+</header>
+
+<section class="container-imagemPrincipal">
+
+    <a class="btn-whatsapp" href="https://api.whatsapp.com/send?phone=5541999836756">
+        <img class="imagem-principal-centralizada"
+             src="./images/23509504_1336030319858179_3592194081927757667_o.jpg" />
+    </a>
+
+    <a class="btn-whatsapp flash btnChamar"
+       href="https://api.whatsapp.com/send?phone=5541999836756">
+       Chamar Agora!
+    </a>
+
+</section>
+
+<div class="container-textoDeEfeito">
+
+    <div class="tituloComIcone">
+        <img src="./images/iconsirene.jpg" width="50" />
+        <h1>Guincho em Colombo 24H</h1>
+        <img src="./images/iconsirene.jpg" width="50" />
     </div>
 
-    <footer class="containerFooter">
-        <p>&copy; Auto Socorro Monza Ltda.</p>
-    </footer>
+    <img src="./images/banner/asmonza24h.png">
 
-    <!-- SCRIPT DE CONVERSÃO -->
-    <script>
-    document.querySelectorAll('#btn-ligar').forEach(btn => {
-        btn.addEventListener('click', function() {
-            gtag('event', 'conversion', {
-                'send_to': 'AW-777779842/zf2YCID_vJ8cEIL17_IC'
-            });
+    <a class="btn-whatsapp flash btnChamar"
+       href="https://api.whatsapp.com/send?phone=5541999836756">
+       Chamar Agora!
+    </a>
+
+    <h1>Guincho em Curitiba e região metropolitana 24H</h1>
+
+    <p>Atendimento rápido 24 horas.</p>
+
+    <a class="btn-whatsapp flash btnChamar"
+       href="https://api.whatsapp.com/send?phone=5541999836756">
+       Chamar Agora!
+    </a>
+
+    <img style="width: 100%;" src="./images/doisselosLogo.png" />
+
+</div>
+
+<!-- BOTÃO DE LIGAÇÃO -->
+<div style="text-align:center; margin:30px;">
+    <a class="btn-ligar"
+       href="tel:41999836756"
+       style="background:#22c55e;color:white;padding:15px 25px;border-radius:10px;font-size:18px;text-decoration:none;">
+       📞 Ligar Agora
+    </a>
+</div>
+
+<footer class="containerFooter">
+    <p>&copy; Auto Socorro Monza Ltda.</p>
+</footer>
+
+<!-- SCRIPT DE CONVERSÃO -->
+<script>
+document.querySelectorAll('.btn-ligar').forEach(btn => {
+    btn.addEventListener('click', function() {
+        gtag('event', 'conversion', {
+            'send_to': 'AW-777779842/zf2YCID_vJ8cEIL17_IC'
         });
     });
+});
 
-    document.querySelectorAll('#btn-whatsapp').forEach(btn => {
-        btn.addEventListener('click', function() {
-            gtag('event', 'conversion', {
-                'send_to': 'AW-777779842/RLNICPCevZ8cEIL17_IC'
-            });
+document.querySelectorAll('.btn-whatsapp').forEach(btn => {
+    btn.addEventListener('click', function() {
+        gtag('event', 'conversion', {
+            'send_to': 'AW-777779842/RLNICPCevZ8cEIL17_IC'
         });
     });
+});
 </script>
 
 </body>
